@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fraud-finder/static/css/main.cb3727f8.css",
+    "main.js": "/fraud-finder/static/js/main.651804d5.js",
+    "static/js/787.987ee9a6.chunk.js": "/fraud-finder/static/js/787.987ee9a6.chunk.js",
+    "index.html": "/fraud-finder/index.html",
+    "main.cb3727f8.css.map": "/fraud-finder/static/css/main.cb3727f8.css.map",
+    "main.651804d5.js.map": "/fraud-finder/static/js/main.651804d5.js.map",
+    "787.987ee9a6.chunk.js.map": "/fraud-finder/static/js/787.987ee9a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb3727f8.css",
+    "static/js/main.651804d5.js"
+  ]
+}
