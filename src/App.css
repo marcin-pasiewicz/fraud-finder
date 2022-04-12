@@ -17,3 +17,8 @@
   width: 50vw;
   height: 50vh;
 }
+
+.story-submit {
+  margin: 5px;
+  background-color: transparent;
+}

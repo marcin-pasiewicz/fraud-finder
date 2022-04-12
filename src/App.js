@@ -26,11 +26,15 @@ function App() {
         <Form>
           <label htmlFor="story" className='story-label'>Tell me something</label>
           <Field id="story" name="story" placeholder="Enter your text here" as="textarea" className='story-text' />
-          <button type="submit">Submit</button>
+          <button type="submit" className='story-submit'>Submit</button>
         </Form>
       </Formik>
-      <div>score: {benfordScore}</div>
-      <div>probably: {benfordScore >= 0.9 ? 'fiction' : 'true story'}</div>
+      {benfordScore && (
+        <div>
+          <div>score: {benfordScore}</div>
+          <div>probably: {benfordScore >= 0.9 ? 'true story' : 'fiction'}</div>
+        </div>
+        )}
     </div>
   );
 }
